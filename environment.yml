@@ -1,0 +1,29 @@
+name: bayesian-observer-env
+channels:
+  - ejolly      
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pymer4      
+  - pandas
+  - r-base=4.2
+  - r-lme4
+  - r-lmertest
+  - r-tidyverse
+  - rpy2
+  - great_tables
+  - broom
+  - polars
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - pingouin
+  - scipy
+  - notebook 
+  - r-broom
+  - git
+  - pip   
+  - pip:
+      - pymer4  
+      - patsy
