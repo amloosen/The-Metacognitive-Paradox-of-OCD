@@ -10,7 +10,7 @@ This repository contains code in Python for the behaviorala analysis (1) and the
 ---
 # Required
 Please download the data on [OSF](https://osf.io/c6tnx/). Download the data from OSF and place the CSV files in a folder named data/ at the root of this repository.
-Add an empty sub-folder called "figures".
+Add an empty sub-folder called "figures". Run BayesianObserver first.
 
 ## Content of the Repository
 1. **Data Analysis**:

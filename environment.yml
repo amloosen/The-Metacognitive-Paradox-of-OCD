@@ -1,29 +1,35 @@
+# Environment used to produce the results in Loosen et al.
+# Versions are pinned to the ones the analyses were run with. pymer4 0.8.2 calls
+# DataFrame.applymap (removed in pandas 3) and expects rpy2 < 3.6; pingouin 0.6
+# renamed columns used by the pairwise tests. Unpinning these breaks the notebooks
+# on a fresh solve.
 name: bayesian-observer-env
 channels:
-  - ejolly      
+  - ejolly
   - conda-forge
   - defaults
 dependencies:
   - python=3.10
-  - pymer4      
-  - pandas
+  - pymer4=0.8.2
+  - pandas=2.3.*
+  - numpy=2.2.*
+  - scipy=1.15.*
+  - pingouin=0.5.*
+  - statsmodels=0.14.*
+  - scikit-learn=1.7.*
+  - seaborn=0.13.*
+  - matplotlib=3.10.*
+  - rpy2=3.5.*
   - r-base=4.2
-  - r-lme4
-  - r-lmertest
+  - r-lme4=1.1_35*
+  - r-lmertest=3.1_3
   - r-tidyverse
-  - rpy2
+  - r-broom
   - great_tables
   - broom
   - polars
-  - matplotlib
-  - seaborn
-  - statsmodels
-  - pingouin
-  - scipy
-  - notebook 
-  - r-broom
+  - notebook
   - git
-  - pip   
+  - pip
   - pip:
-      - pymer4  
       - patsy
