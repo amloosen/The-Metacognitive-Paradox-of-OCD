@@ -1,7 +1,7 @@
 # The Metacognitive Paradox of OCD
 Loosen AM, Zaboski BA, Moore AS, Bohner C, Pushkarskaya H, Pittenger C*, Hauser TU* (2026).
 The metacognitive paradox of OCD: confidence is globally reduced but shows increased
-sensitivity to local evidence. *Translational Psychiatry*.
+sensitivity to local evidence. *Translational Psychiatry*. https://doi.org/10.1038/s41398-026-04399-3
 
 ## Overview
 This repository contains the data analysis and Bayesian learner implementation for a study
